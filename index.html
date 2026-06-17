@@ -66,6 +66,9 @@
     <div class="container">
       <h2>Contact Us</h2>
       <p>Ready to start your next project? Reach out and we'll get back to you shortly.</p>
+      <!-- To receive form submissions, replace the action attribute with your
+           form endpoint (e.g. a Formspree URL: https://formspree.io/f/YOUR_ID)
+           and update handleSubmit accordingly. -->
       <form class="contact-form" onsubmit="handleSubmit(event)">
         <div class="form-group">
           <label for="name">Name</label>
@@ -89,6 +92,9 @@
   </footer>
 
   <script>
+    // TODO: Replace this placeholder with a real form submission handler.
+    // Connect to a backend endpoint or a service such as Formspree
+    // (https://formspree.io) to actually deliver messages.
     function handleSubmit(e) {
       e.preventDefault();
       alert('Thank you! We will be in touch soon.');
